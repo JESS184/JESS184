@@ -1,0 +1,36 @@
+PRINCIPAL()
+{
+    Revisar mi correo.
+    SI ¿El profesor pidio una actividad?
+       { 
+            Tarea = "Colocar tu número de actividad".
+            Nombre = "Colocar el nombre".
+            Escuela = "Cecyt10".
+            FUNCION ZOOM.
+            Cerrar mi cámara.
+            Atender clase.
+            FUNCION EJERCICIO.
+            Enviar la actividad de &Nombre número &Tarea por correo de la escuela &Escuela.
+            Despedirme de mis compañeros.
+       }
+    SINO
+        {
+            Descansar.
+        }
+}
+
+ZOOM()
+{
+    Dar click en la liga.
+    Colocar la clave.
+    Poner el ID.
+    REGRESA
+}
+
+EJERCICIO()
+{
+    Revisar lo que pide el profesor.
+    Resolver en cuaderno.
+    Poner resultado.
+    REGRESAR
+}
