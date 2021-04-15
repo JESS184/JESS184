@@ -1,0 +1,12 @@
+main ()
+{
+    printf("¿Qué tabla deseas?");
+    scanf (TABLA);
+    
+    FOR (x=1; x<=10; x++)
+    {
+        printf(TABLA * x );
+    }
+
+    printf("Gracias, bye");
+}
